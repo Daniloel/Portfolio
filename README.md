@@ -1,10 +1,14 @@
 # Danilo Verginio da Silva
 Meu nome é Danilo Vergínio da Silva e sou tecnólogo em Banco de Dados pela FATEC São José dos Campos. Durante minha formação, adquiri sólidos conhecimentos em bancos de dados relacionais e NoSQL, além de experiência em desenvolvimento de software utilizando linguagens como Python, Java, javaScript e SQL. Ao longo dessa jornada, desenvolvi habilidades técnicas e interpessoais, como liderança de equipes em projetos de desenvolvimento, capacidade de trabalhar em ambientes colaborativos e a prática de boas práticas de programação, através de Projetos Integrados (API).
 
-# Autor
-
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/88066389?v=4" width=115><br><sub>Danilo Verginio</sub>](https://github.com/Daniloel) |     
 | :---: |
+
+### Principais Conhecimentos
+- Java: Para criação de API's REST com Spring.
+- SQL: Para modelagem, criação e manipulação de Banco de Dados.
+- Git: Versionamento de código.
+- Vue.js: Framework JavaScript.
 
 # Contatos
 <div>
