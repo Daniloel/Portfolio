@@ -21,6 +21,12 @@ Desenvolver um programa que processe dados oficiais da COVID-19 em SP e os apres
 
 
 ### Tecnologias Utilizadas
+<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/> Python: Para desenvolvimento rápido e intuitivo de análise e visualização de dados.<br>
+
+<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40" height="40"/> Pandas: Para manipulação eficiente de grandes volumes de dados.<br>
+
+<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40" height="40"/> Matplotlib: Para visualização de dados com gráficos interativos e personalizáveis.
+
 
 ### Contribuições pessoais
 
