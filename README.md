@@ -12,8 +12,8 @@ Meu nome é Danilo Vergínio da Silva e sou tecnólogo em Banco de Dados pela FA
 <a href="https://www.linkedin.com/in/seu-usuário-linkedln-aqui" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 </div>
 
+## [Projeto01 - Fatec](primeiroSemestre/README.md)
 
-## Projeto01 - Fatec
 
 ## Projeto02 - Dom Rock
 
