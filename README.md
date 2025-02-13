@@ -29,6 +29,8 @@ Desenvolver um programa que processe dados oficiais da COVID-19 em SP e os apres
 
 
 ### Contribuições pessoais
+Como desenvolvedor de software, participei ativamente no desenvolvimento deste projeto, contribuindo tanto na lógica de programação, que neste caso foi procedural, com foco em laços e condições, quanto na obtenção de dados. Meu envolvimento não se limitou apenas à codificação, mas também à proposição de ideias que auxiliaram no progresso do projeto.
+Durante o desenvolvimento do projeto, tive a oportunidade de aprender e utilizar o sistema de versionamento Git e a plataforma GitHub. Essa experiência foi fundamental para o meu crescimento como desenvolvedor, permitindo que eu trabalhasse de forma colaborativa e organizada, controlando as diferentes versões do código e facilitando o trabalho em equipe.
 
 ### Aprendizados efetivos
 
