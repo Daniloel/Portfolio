@@ -13,6 +13,22 @@ Meu nome é Danilo Vergínio da Silva e sou tecnólogo em Banco de Dados pela FA
 </div>
 
 ## [Projeto01 - Fatec](primeiroSemestre/README.md)
+### Descrição
+Desenvolver um programa que processe dados oficiais da COVID-19 em SP e os apresente de forma clara e acessível à população, através de gráficos e visualizações, facilitando a compreensão da pandemia.
+
+[GIT - Fatec](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3)
+
+
+
+### Tecnologias Utilizadas
+
+### Contribuições pessoais
+
+### Aprendizados efetivos
+
+### Hard Skills
+
+### SoftSkills
 
 
 ## Projeto02 - Dom Rock
