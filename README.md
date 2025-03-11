@@ -30,11 +30,9 @@ Desenvolver um programa que processe dados oficiais da COVID-19 em SP e os apres
 
 
 ### Tecnologias Utilizadas
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/> Python: Para desenvolvimento rápido e intuitivo de análise e visualização de dados.<br>
-
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40" height="40"/> Pandas: Para manipulação eficiente de grandes volumes de dados.<br>
-
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40" height="40"/> Matplotlib: Para visualização de dados com gráficos interativos e personalizáveis.
+- **Python**: Para desenvolvimento rápido e intuitivo de análise e visualização de dados.<br>
+- **Pandas**: Para manipulação eficiente de grandes volumes de dados.<br>
+- **Matplotlib**: Para visualização de dados com gráficos interativos e personalizáveis.
 
 
 ### Contribuições pessoais
@@ -121,18 +119,13 @@ Através do matplolib foi possivel criar gráficos para a visualizção do clien
 ### Aprendizados efetivos
 
 ### Hard Skills
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/> Python: Para desenvolvimento rápido e intuitivo de análise e visualização de dados. - sei fazer com ajuda<br>
 
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40" height="40"/> Pandas: Para manipulação eficiente de grandes volumes de dados. - sei fazer com ajuda<br>
-
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40" height="40"/> Matplotlib: Para visualização de dados com gráficos interativos e personalizáveis. - sei fazer com ajuda<br>
-
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/> Git: Sistema de controle de versão distribuído para rastrear alterações no código fonte. - sei fazer com ajuda <br>
-
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40"/> GitHub: Plataforma de hospedagem de código para colaboração e gerenciamento de projetos usando Git. - sei fazer com ajuda<br>
-
-
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" width="40" height="40"/> Jira: Ferramenta de gerenciamento de projetos e rastreamento de bugs, amplamente utilizada em desenvolvimento de software. - sei fazer com ajuda<br>
+- **Python**: Para desenvolvimento rápido e intuitivo de análise e visualização de dados. - sei fazer com ajuda<br>
+- **Pandas**: Para manipulação eficiente de grandes volumes de dados. - sei fazer com ajuda<br>
+- **Matplotlib**: Para visualização de dados com gráficos interativos e personalizáveis. - sei fazer com ajuda<br>
+- **Git**: Sistema de controle de versão distribuído para rastrear alterações no código fonte. - sei fazer com ajuda <br>
+- **GitHub**: Plataforma de hospedagem de código para colaboração e gerenciamento de projetos usando Git. - sei fazer com ajuda<br>
+- **Jira**: Ferramenta de gerenciamento de projetos e rastreamento de bugs, amplamente utilizada em desenvolvimento de software. - sei fazer com ajuda<br>
 
 ### SoftSkills
 - **Comunicação**: <br>
