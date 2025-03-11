@@ -17,6 +17,11 @@ Meu nome é Danilo Vergínio da Silva e sou tecnólogo em Banco de Dados pela FA
 </div>
 
 ## [Projeto01 - Fatec](primeiroSemestre/README.md)
+***Sistema de visualização de dados da covid-19 no estado de São Paulo.***
+
+### Parceiro Corporativo  
+FATEC
+
 ### Descrição
 Desenvolver um programa que processe dados oficiais da COVID-19 em SP e os apresente de forma clara e acessível à população, através de gráficos e visualizações, facilitando a compreensão da pandemia.
 
@@ -138,11 +143,95 @@ Como este foi meu primeiro semestre, precisei me dedicar intensamente ao estudo 
 
 
 ## Projeto02 - Dom Rock
+***Sistema de gerenciamento de clientes.***
+
+### Parceiro Corporativo 
+DOM ROCK
+
+## Descrição do projeto
+O projeto teve como desafio desenvolver um sistema eficiente para a gestão e ativação de clientes na plataforma Dom Rock. A solução deveria ser orientada à entrada e processamento de dados, permitindo a configuração de parâmetros e variáveis específicas de cada cliente para viabilizar a alocação estratégica de recursos. Além disso, o sistema deveria possibilitar a estimativa de consumo com base em fatores como volume de dados, número de usuários e demais variáveis relevantes, garantindo uma distribuição precisa e otimizada.
+
+Para atender a essas necessidades, foi essencial a criação de interfaces intuitivas para cada etapa do processo, facilitando tanto a ativação quanto a gestão dos cadastros. A modelagem adequada da base de dados foi outro aspecto fundamental, assegurando a escalabilidade do sistema e sua integração futura com outras plataformas. Por fim, a solução incorporou mecanismos para a geração de relatórios e consultas detalhadas, proporcionando maior visibilidade e controle sobre o processo, tanto para a empresa quanto para os clientes.
+
+## Tecnologias utilizadas
+
+- **Java**: Linguagem para desenvolvimento da aplicação back-end,utilizada com as lógicas para inserção, selecionar, deletar e excluir.
+- **Java Swing**: Biblioteca de interface gráfica de usuário utilizada para criar interfaces gráficas.
+- **SqlServer**: Foi utilizado um banco na nuvem azure(SqlServer) onde os dados de login e dos pedidos dos clientes foram armazenados;
+
+### Contribuições pessoais
+### Aprendizados efetivos
+
+### Hard Skills
+### SoftSkills
 
 ## Projeto03 - Iacit
+***Sistema de visualização de dados meteorológicos***
+
+### Empresa parceira  
+IACIT
+
+## Descrição do projeto
+## Tecnologias utilizadas
+### Contribuições pessoais
+### Aprendizados efetivos
+### Hard Skills
+### SoftSkills
+
 
 ## Projeto04 - Embraer
+***Sistema de controle de configuração de aeronaves***
+
+### Parceiro Corporativo
+Embraer
+
+## Descrição do projeto
+## Tecnologias utilizadas
+### Contribuições pessoais
+### Aprendizados efetivos
+### Hard Skills
+### SoftSkills
 
 ## Projeto05 - Pro4Tech
 
-## Projeto05 - Imagem
+***Siatema interativo de visualizaçãode de dados dos processo de recrutamento e seleção***
+
+### Parceiro Corporativo 
+Pro4Tech
+
+## Descrição do projeto
+O objetivo da aplicação é desenvolver um dashboard interativo para centralizar e visualizar dados do processo de recrutamento e seleção de uma empresa. A plataforma permitirá análises em tempo real de métricas como número de candidatos, tempo médio de contratação e custos, além de gerar relatórios dinâmicos que apoiam a tomada de decisões estratégicas.
+
+Os usuários poderão personalizar relatórios de acordo com suas necessidades, aplicando filtros para visualizar informações específicas. Com essa abordagem, a ferramenta visa otimizar o processo de recrutamento, identificando padrões e tendências que contribuam para maior eficiência e melhor alocação de recursos.
+
+## Tecnologias utilizadas
+### Contribuições pessoais
+### Aprendizados efetivos
+### Hard Skills
+### SoftSkills
+
+## Projeto06 - Imagem
+***Sistema de análise de sentimento por geolocalização***
+
+### Parceiro Corporativo 
+Imagem
+
+## Descrição do projeto
+O desafio proposto foi desenvolver uma plataforma sofisticada para analisar e visualizar os sentimentos dos clientes com base em avaliações online, integrando tecnologia de ponta para fornecer insights geograficamente contextualizados.
+
+A solução consiste em uma inteligência artificial (IA) que analisa sentimentos nas avaliações de clientes sobre hotéis, classificando-os como neutros, positivos ou negativos. Os dados foram armazenados em um banco de dados não relacional, e com base nesses dados foi desenvolvido um software que apresentava insights valiosos por meio de funcionalidades como mapas interativos, gráficos de tendências, cards informativos e um sistema de gerenciamento de acesso. 
+
+
+[GIT](https://github.com/CarcaraTec/Imagem-api6sem)
+## Tecnologias utilizadas 
+
+- **Java e Spring boot**: A linguagem Java foi utilizada em conjunto ao framework Spring para desenvolvimento da camada de segurança da aplicação.
+- **Python e Flask**: A linguagem Python foi utilizada em conjunto ao framework Flask para desenvolvimento web e criação de API's REST.
+- **MongoDB**: Tecnologia em banco de dados nao relacional para armazenar os dados do nosso dataset.
+- **MySQL**: Sistema de gerenciamento de banco de dados utilizado para armazenar dados dos usuarios.
+- **Vue.js**: Framework javascript Vue.js para o frontend da aplicação.
+
+### Contribuições pessoais
+### Aprendizados efetivos
+### Hard Skills
+### SoftSkills
