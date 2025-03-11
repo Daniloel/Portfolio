@@ -194,7 +194,7 @@ Embraer
 
 ## Projeto05 - Pro4Tech
 
-***Siatema interativo de visualizaçãode de dados dos processo de recrutamento e seleção***
+***Sistema interativo de visualizaçãode de dados dos processo de recrutamento e seleção***
 
 ### Parceiro Corporativo 
 Pro4Tech
