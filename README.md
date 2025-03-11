@@ -36,6 +36,83 @@ Desenvolver um programa que processe dados oficiais da COVID-19 em SP e os apres
 Como desenvolvedor de software, participei ativamente no desenvolvimento deste projeto, contribuindo tanto na lógica de programação, que neste caso foi procedural, com foco em laços e condições, quanto na obtenção de dados. Meu envolvimento não se limitou apenas à codificação, mas também à proposição de ideias que auxiliaram no progresso do projeto.
 Durante o desenvolvimento do projeto, tive a oportunidade de aprender e utilizar o sistema de versionamento Git e a plataforma GitHub. Essa experiência foi fundamental para o meu crescimento como desenvolvedor, permitindo que eu trabalhasse de forma colaborativa e organizada, controlando as diferentes versões do código e facilitando o trabalho em equipe.
 
+<details>
+<summary><b>Utilização de laços</b></summary>
+No exemplo, um laço permitiu criar um mecanismo para selecionar as análises desejadas.
+    plpl = str("")
+    while plpl !=("90"):
+        print('''[ 1 ] dado específico
+                    [ 2 ] comparações
+                        [ x ] Voltar a escolha das cidades/estado''')
+        F = input("Digite a sua escolha: ")
+
+        if F == "1":
+            print("escolha entre os dados disponíveis(abaixo):")
+            print('''[ 1 ] Casos confirmados
+                                         [ 2 ] Óbitos confirmados''')
+            FF = input("Digite a sua escolha: ")
+
+            if FF == "1":
+
+                print('''\033[0;35mEscolha uma das opçoes
+                                            [ 1 ] data expecifica
+                                            [ 2 ] última data disponível
+                                            [ 3 ] Ano de 2020
+                                            [ 4 ] Ano de 2021
+                                            [ 5 ] 1ºSemestre 2020
+                                            [ 6 ] 2ºSemestre 2020
+                                            [ 7 ] 1ºSemestre 2021
+                                            [ 8 ] 2ºSemestre 2021
+                                            [ 9 ] Range inputável\033[m''')
+                esc = str("")
+
+                while esc != ("1", "2", "3", "4", "5", "6", "7", "8"):
+
+                    esc = str(input('Digite a sua escolha(1, 2, 3, 4, 5 ,6, 7, 8, 9): '))
+
+                    if esc == "1":
+                        dt2 = input("\033[0;35mDigite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:\033[m")
+
+                        colDT2 = colSP1.loc[colSP1["date"] == dt2]
+
+                        while colDT2.empty:
+                            print("\033[0;31mData não encontrada\n Digite novamente\033[m")
+                            dt2 = input("Digite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:")
+                            colDT2 = colSP1.loc[colSP1["date"] == dt2]
+
+                        colDT2 = colDT2.drop("state", axis=1)
+                        colDT2 = colDT2.drop("place_type", axis=1)
+
+                        plt.bar(colDT2['date'], colDT2['new_confirmed'], label='Casos', color='g', ls='--',
+                                lw='2')  # Caso queira grafico de barras colocar - plt.bar()
+                        plt.legend(loc=2, fontsize='15')  # Personalização da legenda
+                        plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
+                        plt.xlabel('Data')  # Nome do Eixo X
+                        plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                        xxxx = colDT2.sum()
+                        print("Casos de Covid no dia:")
+                        print(xxxx["new_confirmed"])
+                        plt.show()
+                        break
+</details>
+
+
+<details>
+<summary><b>Gráficos</b></summary>
+Através do matplolib foi possivel criar gráficos para a visualizção do cliente;
+
+		plt.bar(colDT2['date'], colDT2['new_confirmed'], label='Casos', color='g', ls='--',
+		    lw='2')  # Caso queira grafico de barras colocar - plt.bar()
+	    plt.legend(loc=2, fontsize='15')  # Personalização da legenda
+	    plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
+	    plt.xlabel('Data')  # Nome do Eixo X
+	    plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+	    xxxx = colDT2.sum()
+	    print("Casos de Covid no dia:")
+	    print(xxxx["new_confirmed"])
+    		plt.show()
+</details>
+
 ### Aprendizados efetivos
 
 ### Hard Skills
@@ -53,8 +130,11 @@ Durante o desenvolvimento do projeto, tive a oportunidade de aprender e utilizar
 <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" width="40" height="40"/> Jira: Ferramenta de gerenciamento de projetos e rastreamento de bugs, amplamente utilizada em desenvolvimento de software. - sei fazer com ajuda<br>
 
 ### SoftSkills
-Comunicação: <br>
-Trebalho em Equipe:
+- **Comunicação**: <br>
+Durante este semestre, as aulas no formato online apresentaram desafios extras na comunicação, exigindo que eu aprimorasse essa habilidade com meu grupo. Investir na comunicação com a equipe fortaleceu os laços entre os membros e facilitou o aprendizado por meio da troca de experiências individuais.
+
+- **Aprendizado**:
+Como este foi meu primeiro semestre, precisei me dedicar intensamente ao estudo para compreender os fundamentos do desenvolvimento de software e adquirir a base necessária para programar em Python, além de aprender a usar ferramentas como o github. O aprendizado contínuo foi essencial para meu progresso, permitindo que eu evoluísse gradativamente e aplicasse os conhecimentos adquiridos na prática.
 
 
 ## Projeto02 - Dom Rock
