@@ -153,10 +153,31 @@ Para atender a essas necessidades, foi essencial a criação de interfaces intui
 - **SqlServer**: Foi utilizado um banco na nuvem azure(SqlServer) onde os dados de login e dos pedidos dos clientes foram armazenados;
 
 ### Contribuições pessoais
+Contribuí para a modelagem da parte do banco de dados e implementei a conexão com o banco utilizando o padrão DAO (Data Access Object). Além disso, ajudei na criação do banco e das tabelas, garantindo uma estrutura adequada para armazenar e organizar os dados. Essa abordagem permitiu uma interação eficiente entre a aplicação e o banco de dados, oferecendo maior organização e flexibilidade na manipulação das informações.
+
+<details>
+  <summary><b>Modelo Relacional</b></summary>
+  <br>
+   Modelo do Banco de Dados.
+	
+   ![Imagem do Projeto](https://github.com/DatatechOffice/datatech_api/blob/main/Modelagem_Banco/DerDatatechGold.png))
+
+
+</details> 
+
 ### Aprendizados efetivos
 
 ### Hard Skills
+- **SQL**: sei fazer com ajuda
+- **Modelagem de dados**: sei fazer com ajuda
+- **Integração com banco de dados**: sei fazer com ajuda
+- **Orientação a objetos**: sei fazer com ajuda
+
 ### SoftSkills
+- **Colaboração**:Colaboração: Colaborei com a equipe para entender quais eram os requisitos necessários para
+ o desenvolvimento técnico. Além disso, contribuí com as questões técnicas do banco e do backend."
+
+- **Criatividade**: Ao trabalhar com uma empresa real pela primeira vez, foi necessário aplicar criatividade para desenvolver uma solução que atendesse aos requisitos estabelecidos.
 
 ## Projeto03 - Iacit
 ***Sistema de visualização de dados meteorológicos***
@@ -184,6 +205,9 @@ Embraer
 ### Aprendizados efetivos
 ### Hard Skills
 ### SoftSkills
+- **Adaptabilidade**: Com uma equipe nova, precisei me adaptar rapidamente ao ambiente e
+às dinâmicas de trabalho. A flexibilidade foi essencial para lidar com mudanças e desafios,
+garantindo que mantivéssemos o foco no objetivo final e atendêssemos às necessidades do cliente de forma ágil e eficiente.
 
 ## Projeto05 - Pro4Tech
 
