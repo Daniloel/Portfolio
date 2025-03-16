@@ -146,6 +146,8 @@ O projeto teve como desafio desenvolver um sistema eficiente para a gestão e at
 
 Para atender a essas necessidades, foi essencial a criação de interfaces intuitivas para cada etapa do processo, facilitando tanto a ativação quanto a gestão dos cadastros. A modelagem adequada da base de dados foi outro aspecto fundamental, assegurando a escalabilidade do sistema e sua integração futura com outras plataformas. Por fim, a solução incorporou mecanismos para a geração de relatórios e consultas detalhadas, proporcionando maior visibilidade e controle sobre o processo, tanto para a empresa quanto para os clientes.
 
+[GIT - DomRock](https://github.com/DatatechOffice/datatech_api)
+
 ## Tecnologias utilizadas
 
 - **Java**: Linguagem para desenvolvimento da aplicação back-end,utilizada com as lógicas para inserção, selecionar, deletar e excluir.
@@ -186,6 +188,9 @@ Contribuí para a modelagem da parte do banco de dados e implementei a conexão 
 IACIT
 
 ## Descrição do projeto
+
+[GIT - IACIT](https://github.com/DatatechOffice/Api_Iacit)
+
 ## Tecnologias utilizadas
 ### Contribuições pessoais
 ### Aprendizados efetivos
@@ -200,6 +205,8 @@ IACIT
 Embraer
 
 ## Descrição do projeto
+
+[GIT - EMBRAER](https://github.com/DatatechOffice/Api_Iacit)
 ## Tecnologias utilizadas
 ### Contribuições pessoais
 ### Aprendizados efetivos
