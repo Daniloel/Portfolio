@@ -206,7 +206,7 @@ Embraer
 
 ## Descrição do projeto
 
-[GIT - EMBRAER](https://github.com/DatatechOffice/Api_Iacit)
+[GIT - EMBRAER](https://github.com/GroupHextech/HEXTECH-API4sem)
 ## Tecnologias utilizadas
 ### Contribuições pessoais
 ### Aprendizados efetivos
