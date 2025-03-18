@@ -313,12 +313,21 @@ garantindo que mantivéssemos o foco no objetivo final e atendêssemos às neces
 Pro4Tech
 
 ## Descrição do projeto
+<p align="justify">
 O objetivo da aplicação é desenvolver um dashboard interativo para centralizar e visualizar dados do processo de recrutamento e seleção de uma empresa. A plataforma permitirá análises em tempo real de métricas como número de candidatos, tempo médio de contratação e custos, além de gerar relatórios dinâmicos que apoiam a tomada de decisões estratégicas.
-
+	
 Os usuários poderão personalizar relatórios de acordo com suas necessidades, aplicando filtros para visualizar informações específicas. Com essa abordagem, a ferramenta visa otimizar o processo de recrutamento, identificando padrões e tendências que contribuam para maior eficiência e melhor alocação de recursos.
+</p>
 
 ## Tecnologias utilizadas
+- **java**:Linguagem de programação orientada a objetos, amplamente usada para desenvolvimento de sistemas corporativos, aplicativos móveis e servidores, com portabilidade garantida pela Java Virtual Machine (JVM).
+- **Github Actions**:Plataforma de automação para CI/CD integrada ao GitHub, permitindo a criação de fluxos de trabalho para testes, compilação e deploy automáticos de código.
+- **React**:Biblioteca JavaScript para criação de interfaces de usuário interativas e reutilizáveis, focada em componentes e otimizada para aplicativos de uma única página (SPA).
+- **Python**Linguagem de programação de alto nível, conhecida pela sintaxe simples e versatilidade, amplamente usada em análise de dados
+  
 ### Contribuições pessoais
+No projeto, atuei como desenvolvedor backend, sendo responsável pela criação de APIs REST que permitissem a interação eficiente com os dados provenientes do banco de dados. Além de tratar e organizar esses dados de forma otimizada, garanti que as informações fossem processadas corretamente para atender às necessidades do sistema. Também contribuí para o desenvolvimento do frontend, colaborando na apresentação dos dados em um formato visual mais acessível.
+
 ### Aprendizados efetivos
 ### Hard Skills
 ### SoftSkills
