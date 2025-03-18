@@ -189,14 +189,88 @@ IACIT
 
 ## Descrição do projeto
 
+O projeto desenvolvido para a IACIT teve como objetivo otimizar o processamento e a geração de relatórios customizados de dados meteorológicos, eliminando processos manuais e aumentando a eficiência da empresa. A solução foi uma aplicação web que permite a importação e o armazenamento de dados do Instituto Nacional de Meteorologia (INMET) em um banco de dados, possibilitando consultas filtradas por data, região, estado, estação e variáveis meteorológicas.
+
+Além disso, o sistema oferece funcionalidades avançadas, como exibição de informações em gráficos e cards, além da exportação de relatórios detalhados em formato de planilhas. Com um controle de acesso integrado, funcionários com permissões administrativas podem gerenciar usuários e relatórios, garantindo maior segurança e organização no uso da plataforma.
+
 [GIT - IACIT](https://github.com/DatatechOffice/Api_Iacit)
 
 ## Tecnologias utilizadas
+- **Java e Spring**:
+O backend da aplicação foi desenvolvido em Java, utilizando o framework Spring Boot para agilizar o desenvolvimento e a configuração do projeto. Com o uso do Spring, foram criadas APIs REST que permitem a comunicação entre o frontend e o banco de dados, garantindo a persistência dos dados meteorológicos e o envio de informações em formato JSON.
+A injeção de dependências do Spring facilitou a implementação de recursos essenciais, tornando o sistema mais modular e eficiente. Dessa forma, a aplicação conseguiu oferecer uma estrutura robusta para o processamento e a disponibilização de dados meteorológicos de forma ágil e segura.
+- **Html, Css, Javascript:**:
+O frontend da aplicação foi desenvolvido com JavaScript, HTML e CSS, garantindo uma interface dinâmica e interativa. O JavaScript possibilitou a manipulação dos dados em tempo real, exibindo informações por meio de gráficos e cards, enquanto o HTML estruturou os elementos e o CSS assegurou um design responsivo e intuitivo.
+
+- **PostgreSQL:**:
+O PostgreSQL foi utilizado como sistema de gerenciamento de banco de dados relacional para armazenar e organizar os dados meteorológicos, incluindo informações de estações e regiões. Sua eficiência, versatilidade e alto desempenho facilitaram a consulta, manipulação e geração de relatórios, garantindo um armazenamento seguro e otimizado para grandes volumes de dados.
+
 ### Contribuições pessoais
+No projeto, atuei como desenvolvedor fullstack, contribuindo tanto no frontend quanto no backend e no banco de dados. No frontend, realizei o levantamento e estudo das ferramentas mais adequadas para a interface do usuário. No backend, desenvolvi APIs para a comunicação entre o sistema e o banco de dados. Além disso, participei da modelagem do banco de dados, garantindo uma estrutura eficiente para armazenar e acessar as informações.
+
+
+<details>
+  <summary><b>API REST</b></summary>
+
+```java
+@Controller
+public class PrecipitacaoController {
+
+    @Autowired(required = true)
+    private ServicePrecipitacao precipitacaoService;
+
+    @PostMapping(value = { "/precipitacao" }, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<List<Precipitacao>> postFiltroPorData(@RequestBody FilterDataVo data) throws ParseException {
+        List<Precipitacao> listPrecipitacao = precipitacaoService.getByFilter(data.getEstacao(), data.getDataInicio(),
+                data.getDataFim());
+
+        return listPrecipitacao != null && listPrecipitacao.size() > 0
+                ? new ResponseEntity<List<Precipitacao>>(listPrecipitacao, HttpStatus.CREATED)
+                : new ResponseEntity<List<Precipitacao>>(listPrecipitacao, HttpStatus.BAD_REQUEST);
+    }
+}
+```
+
+</details> 
+
+<details>
+  <summary><b>Requisição HTTP</b></summary>
+
+```javascript
+async function carregar_UF(valUF){
+	if(valUF.length >= 1){
+		
+		const resUF = await fetch('../data/estados.json');
+		const UFJson = await resUF.json();
+
+		var html = "<ul class='list-group' position-fixed>";
+		for(let i = 0; i < UFJson.length; i++){
+			if(UFJson[i].name.toLowerCase().startsWith(valUF.toLowerCase())){
+				html += "<li class='list-group-item list-group-item-action' onclick='get_name_UF("+JSON.stringify(UFJson[i].name)+")'>" + UFJson[i].name + "</li>";
+			}
+		}
+		html += "</ul>";
+		document.getElementById('pesquisa_UF').innerHTML = html;
+	}else{
+		document.getElementById('pesquisa_UF').innerHTML = '';
+	}
+}
+```
+
+</details> 
+
 ### Aprendizados efetivos
 ### Hard Skills
-### SoftSkills
+- **SQL**: sei fazer com autonomia
+- **PostgreSQL**: sei fazer com autonomia
+- **Git e github**: sei fazer com autonomia
+- **Consumo de API** Rest: sei fazer com autonomia
+- **Desenvolvimento de código através de interfaces**: sei fazer com ajuda
 
+### SoftSkills
+- **Versatilidade**:Atuei tanto no front-end quanto no back-end deste projeto, o que exigiu a capacidade de adaptar-me às diferentes demandas de cada stack, garantindo um desenvolvimento equilibrado e eficiente.
+
+- **Proatividade**: Busquei compreender as necessidades do projeto e interagir ativamente com toda a equipe, contribuindo com ideias e sugestões para que, juntos, pudéssemos encontrar as melhores soluções de forma eficiente.
 
 ## Projeto04 - Embraer
 ***Sistema de controle de configuração de aeronaves***
