@@ -120,12 +120,12 @@ Através do matplolib foi possivel criar gráficos para a visualizção do clien
 
 ### Hard Skills
 
-- **Python**: Para desenvolvimento rápido e intuitivo de análise e visualização de dados. - sei fazer com ajuda<br>
-- **Pandas**: Para manipulação eficiente de grandes volumes de dados. - sei fazer com ajuda<br>
-- **Matplotlib**: Para visualização de dados com gráficos interativos e personalizáveis. - sei fazer com ajuda<br>
-- **Git**: Sistema de controle de versão distribuído para rastrear alterações no código fonte. - sei fazer com ajuda <br>
-- **GitHub**: Plataforma de hospedagem de código para colaboração e gerenciamento de projetos usando Git. - sei fazer com ajuda<br>
-- **Jira**: Ferramenta de gerenciamento de projetos e rastreamento de bugs, amplamente utilizada em desenvolvimento de software. - sei fazer com ajuda<br>
+- **Python**: sei fazer com ajuda
+- **Pandas**:  sei fazer com ajuda
+- **Matplotlib**: sei fazer com ajuda
+- **Git**:  sei fazer com ajuda 
+- **GitHub**:  sei fazer com ajuda
+- **Jira**:  sei fazer com ajuda
 
 ### SoftSkills
 - **Comunicação**: <br>
@@ -279,16 +279,27 @@ async function carregar_UF(valUF){
 Embraer
 
 ## Descrição do projeto
+A gestão das configurações de aeronaves é um desafio crítico na indústria aeronáutica. Para otimizar esse processo, foi desenvolvido um sistema que permite aos usuários consultar, verificar e editar itens instalados ou aplicáveis a diferentes chassis, conforme uma base de dados estruturada. O sistema armazena todas as regras de composição dos itens e, ao consultar um número de chassi, recupera e exibe as informações relevantes para o usuário, garantindo precisão e eficiência na gestão dos componentes.
+Além disso, a solução foi aprimorada com uma interface intuitiva, voltada para a experiência do usuário, permitindo acesso tanto por computadores quanto por dispositivos móveis via hospedagem em nuvem. No caso específico da Embraer, um Sistema de Controle de Configuração de Aeronaves foi customizado para facilitar a verificação de configurações antes do voo, ajudando os pilotos a garantir a segurança e a eficiência operacional das aeronaves.
 
 [GIT - EMBRAER](https://github.com/GroupHextech/HEXTECH-API4sem)
 ## Tecnologias utilizadas
+
+
 ### Contribuições pessoais
+Atuei como Product Owner no projeto, sendo responsável por definir e priorizar funcionalidades, garantindo que a equipe entregasse valor ao negócio. Gerenciei o backlog, alinhei expectativas com stakeholders e assegurei que o produto atendesse às necessidades dos usuários. Além disso, facilitei a comunicação entre as partes envolvidas, tomei decisões estratégicas e acompanhei o desenvolvimento para garantir a entrega eficiente e alinhada aos objetivos do projeto.
+
 ### Aprendizados efetivos
 ### Hard Skills
+- **Slack**: sei fazer com autonomia
+- **Git e github**: sei fazer com autonomia
+  
 ### SoftSkills
 - **Adaptabilidade**: Com uma equipe nova, precisei me adaptar rapidamente ao ambiente e
 às dinâmicas de trabalho. A flexibilidade foi essencial para lidar com mudanças e desafios,
 garantindo que mantivéssemos o foco no objetivo final e atendêssemos às necessidades do cliente de forma ágil e eficiente.
+
+- **Comunicação**:No projeto, desenvolvi minhas habilidades de comunicação ao interagir diretamente com o cliente para levantar requisitos e alinhar expectativas. Essa experiência me permitiu aprimorar a escuta ativa, a clareza na transmissão de informações e a capacidade de articular soluções de forma eficiente, garantindo que as necessidades do cliente fossem compreendidas e transformadas em requisitos bem definidos para a equipe de desenvolvimento.
 
 ## Projeto05 - Pro4Tech
 
