@@ -284,7 +284,11 @@ Além disso, a solução foi aprimorada com uma interface intuitiva, voltada par
 
 [GIT - EMBRAER](https://github.com/GroupHextech/HEXTECH-API4sem)
 ## Tecnologias utilizadas
+- **Java e Spring Boot**: A programação foi realizada em Java, utilizando o Spring Boot, um framework robusto, para o desenvolvimento de aplicações web e criação de APIs RESTful.
 
+- **Vue.js**: Para a interface de usuário, foi adotado o Vue.js, um framework JavaScript que facilita a construção de frontends dinâmicos e responsivos.
+
+- **Autonomous Database Oracle**: A gestão dos dados foi realizada através do Oracle Autonomous Database, uma plataforma de banco de dados em nuvem automatizada e escalável.
 
 ### Contribuições pessoais
 Atuei como Product Owner no projeto, sendo responsável por definir e priorizar funcionalidades, garantindo que a equipe entregasse valor ao negócio. Gerenciei o backlog, alinhei expectativas com stakeholders e assegurei que o produto atendesse às necessidades dos usuários. Além disso, facilitei a comunicação entre as partes envolvidas, tomei decisões estratégicas e acompanhei o desenvolvimento para garantir a entrega eficiente e alinhada aos objetivos do projeto.
