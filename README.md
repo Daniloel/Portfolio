@@ -25,7 +25,7 @@ FATEC
 ### Descrição
 Desenvolver um programa que processe dados oficiais da COVID-19 em SP e os apresente de forma clara e acessível à população, através de gráficos e visualizações, facilitando a compreensão da pandemia.
 
-[GIT - Fatec](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3)
+[Repositório](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3)
 
 
 
@@ -146,7 +146,7 @@ O projeto teve como desafio desenvolver um sistema eficiente para a gestão e at
 
 Para atender a essas necessidades, foi essencial a criação de interfaces intuitivas para cada etapa do processo, facilitando tanto a ativação quanto a gestão dos cadastros. A modelagem adequada da base de dados foi outro aspecto fundamental, assegurando a escalabilidade do sistema e sua integração futura com outras plataformas. Por fim, a solução incorporou mecanismos para a geração de relatórios e consultas detalhadas, proporcionando maior visibilidade e controle sobre o processo, tanto para a empresa quanto para os clientes.
 
-[GIT - DomRock](https://github.com/DatatechOffice/datatech_api)
+[Repositório](https://github.com/DatatechOffice/datatech_api)
 
 ## Tecnologias utilizadas
 
@@ -193,7 +193,7 @@ O projeto desenvolvido para a IACIT teve como objetivo otimizar o processamento 
 
 Além disso, o sistema oferece funcionalidades avançadas, como exibição de informações em gráficos e cards, além da exportação de relatórios detalhados em formato de planilhas. Com um controle de acesso integrado, funcionários com permissões administrativas podem gerenciar usuários e relatórios, garantindo maior segurança e organização no uso da plataforma.
 
-[GIT - IACIT](https://github.com/DatatechOffice/Api_Iacit)
+[Repositório](https://github.com/DatatechOffice/Api_Iacit)
 
 ## Tecnologias utilizadas
 - **Java e Spring**:
@@ -282,7 +282,7 @@ Embraer
 A gestão das configurações de aeronaves é um desafio crítico na indústria aeronáutica. Para otimizar esse processo, foi desenvolvido um sistema que permite aos usuários consultar, verificar e editar itens instalados ou aplicáveis a diferentes chassis, conforme uma base de dados estruturada. O sistema armazena todas as regras de composição dos itens e, ao consultar um número de chassi, recupera e exibe as informações relevantes para o usuário, garantindo precisão e eficiência na gestão dos componentes.
 Além disso, a solução foi aprimorada com uma interface intuitiva, voltada para a experiência do usuário, permitindo acesso tanto por computadores quanto por dispositivos móveis via hospedagem em nuvem. No caso específico da Embraer, um Sistema de Controle de Configuração de Aeronaves foi customizado para facilitar a verificação de configurações antes do voo, ajudando os pilotos a garantir a segurança e a eficiência operacional das aeronaves.
 
-[GIT - EMBRAER](https://github.com/GroupHextech/HEXTECH-API4sem)
+[Repositório](https://github.com/GroupHextech/HEXTECH-API4sem)
 ## Tecnologias utilizadas
 - **Java e Spring Boot**: A programação foi realizada em Java, utilizando o Spring Boot, um framework robusto, para o desenvolvimento de aplicações web e criação de APIs RESTful.
 
@@ -318,6 +318,8 @@ O objetivo da aplicação é desenvolver um dashboard interativo para centraliza
 	
 Os usuários poderão personalizar relatórios de acordo com suas necessidades, aplicando filtros para visualizar informações específicas. Com essa abordagem, a ferramenta visa otimizar o processo de recrutamento, identificando padrões e tendências que contribuam para maior eficiência e melhor alocação de recursos.
 </p>
+[Repositório](https://github.com/Localhost-305/LocalHost305)
+
 
 ## Tecnologias utilizadas
 - **java**:Linguagem de programação orientada a objetos, amplamente usada para desenvolvimento de sistemas corporativos, aplicativos móveis e servidores, com portabilidade garantida pela Java Virtual Machine (JVM).
@@ -330,7 +332,15 @@ No projeto, atuei como desenvolvedor backend, sendo responsável pela criação 
 
 ### Aprendizados efetivos
 ### Hard Skills
+- **Integração do banco com Spring Data**: sei fazer com autonomia
+- **Arquitetura REST**: sei fazer com autonomia
+- **Gitflow Workflow**: sei fazer com autonomia
+- **Continuous integration (CI)** : sei fazer com autonomia
+  
 ### SoftSkills
+- **Trabalho em equipe**: A sintonia e a cooperação entre os integrantes foram essenciais neste projeto. Com a adoção de novas tecnologias, foi preciso que todos aprendessem juntos e trocassem conhecimentos, assegurando que cada um compreendesse a aplicação das inovações no desenvolvimento. Graças a uma comunicação clara e ao forte espírito colaborativo, conseguimos tornar o processo mais eficiente, acelerando e aprimorando a produtividade.
+
+- **Adaptabilidade**: Durante o projeto, fui desafiado a trabalhar com React, mesmo sem conhecimento prévio da tecnologia. Diante dessa situação, busquei aprender rapidamente, explorando documentações, realizando cursos e aplicando os conceitos no desenvolvimento. A capacidade de adaptação foi essencial para compreender a estrutura do framework e contribuir de forma eficiente para o projeto.
 
 ## Projeto06 - Imagem
 ***Sistema de análise de sentimento por geolocalização***
@@ -344,7 +354,7 @@ O desafio proposto foi desenvolver uma plataforma sofisticada para analisar e vi
 A solução consiste em uma inteligência artificial (IA) que analisa sentimentos nas avaliações de clientes sobre hotéis, classificando-os como neutros, positivos ou negativos. Os dados foram armazenados em um banco de dados não relacional, e com base nesses dados foi desenvolvido um software que apresentava insights valiosos por meio de funcionalidades como mapas interativos, gráficos de tendências, cards informativos e um sistema de gerenciamento de acesso. 
 
 
-[GIT](https://github.com/CarcaraTec/Imagem-api6sem)
+[Repositório](https://github.com/CarcaraTec/Imagem-api6sem)
 ## Tecnologias utilizadas 
 
 - **Java e Spring boot**: A linguagem Java foi utilizada em conjunto ao framework Spring para desenvolvimento da camada de segurança da aplicação.
@@ -354,6 +364,15 @@ A solução consiste em uma inteligência artificial (IA) que analisa sentimento
 - **Vue.js**: Framework javascript Vue.js para o frontend da aplicação.
 
 ### Contribuições pessoais
+No papel de Scrum Master, fui responsável por gerenciar as tarefas entre os desenvolvedores, garantindo uma melhor distribuição do trabalho e o alinhamento com os objetivos do projeto. Atuei ativamente na remoção de impedimentos, facilitando a execução das atividades e assegurando que a equipe pudesse trabalhar de forma mais fluida e produtiva.
+Além disso, acompanhei e mantive atualizado o burndown chart, monitorando o progresso do time e auxiliando na identificação de possíveis gargalos. Com isso, contribuí para a organização e eficiência do desenvolvimento, promovendo um ambiente colaborativo e alinhado com os princípios ágeis.
 ### Aprendizados efetivos
 ### Hard Skills
+- **Python**: sei fazer com autonomia
+- **MongoDB**: sei fazer com ajuda
+- **YouTrack** : sei fazer com autonomia
 ### SoftSkills
+- **Colaboração**:Atuei lado a lado com a equipe, oferecendo suporte, trocando conhecimentos e propondo soluções para impulsionar o desenvolvimento do projeto. Além disso, contribuí ativamente para a implementação da LGPD, auxiliando na adaptação do sistema às diretrizes de proteção de dados.
+
+- **Comunicação** Mantive uma comunicação clara e constante com a equipe, garantindo alinhamento entre os desenvolvedores e facilitando o fluxo de informações. Atuei conduzindo reuniões diárias, removendo impedimentos e promovendo um ambiente onde todos pudessem expressar ideias e preocupações. Além disso, incentivei a troca de feedbacks e a colaboração entre os membros, assegurando que o time trabalhasse de forma integrada e produtiva para alcançar os melhores resultados no projeto
+
