@@ -1,1 +1,0 @@
-Desenvolver um programa que processe dados oficiais da COVID-19 em SP e os apresente de forma clara e acessível à população, através de gráficos e visualizações, facilitando a compreensão da pandemia
