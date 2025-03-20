@@ -25,7 +25,7 @@ Ao longo dessa jornada, desenvolvi habilidades técnicas e interpessoais, como l
 <a href="https://www.linkedin.com/in/seu-usuário-linkedln-aqui" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 </div>
 
-## [Projeto01 - Fatec](primeiroSemestre/README.md)
+## Projeto01 - Fatec
 ***Sistema de visualização de dados da covid-19 no estado de São Paulo.***
 
 ### Parceiro Corporativo  
