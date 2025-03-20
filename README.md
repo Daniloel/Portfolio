@@ -156,6 +156,7 @@ DOM ROCK
 O projeto teve como desafio desenvolver um sistema eficiente para a gestão e ativação de clientes na plataforma Dom Rock. A solução deveria ser orientada à entrada e processamento de dados, permitindo a configuração de parâmetros e variáveis específicas de cada cliente para viabilizar a alocação estratégica de recursos. Além disso, o sistema deveria possibilitar a estimativa de consumo com base em fatores como volume de dados, número de usuários e demais variáveis relevantes, garantindo uma distribuição precisa e otimizada.
 Para atender a essas necessidades, foi essencial a criação de interfaces intuitivas para cada etapa do processo, facilitando tanto a ativação quanto a gestão dos cadastros. A modelagem adequada da base de dados foi outro aspecto fundamental, assegurando a escalabilidade do sistema e sua integração futura com outras plataformas. Por fim, a solução incorporou mecanismos para a geração de relatórios e consultas detalhadas, proporcionando maior visibilidade e controle sobre o processo, tanto para a empresa quanto para os clientes.
 </div>
+
 [Repositório](https://github.com/DatatechOffice/datatech_api)
 
 ## Tecnologias utilizadas
@@ -205,6 +206,7 @@ IACIT
 O projeto desenvolvido para a IACIT teve como objetivo otimizar o processamento e a geração de relatórios customizados de dados meteorológicos, eliminando processos manuais e aumentando a eficiência da empresa. A solução foi uma aplicação web que permite a importação e o armazenamento de dados do Instituto Nacional de Meteorologia (INMET) em um banco de dados, possibilitando consultas filtradas por data, região, estado, estação e variáveis meteorológicas.
 Além disso, o sistema oferece funcionalidades avançadas, como exibição de informações em gráficos e cards, além da exportação de relatórios detalhados em formato de planilhas. Com um controle de acesso integrado, funcionários com permissões administrativas podem gerenciar usuários e relatórios, garantindo maior segurança e organização no uso da plataforma.
 </div>
+
 [Repositório](https://github.com/DatatechOffice/Api_Iacit)
 
 ## Tecnologias utilizadas
@@ -301,6 +303,7 @@ Embraer
 A gestão das configurações de aeronaves é um desafio crítico na indústria aeronáutica. Para otimizar esse processo, foi desenvolvido um sistema que permite aos usuários consultar, verificar e editar itens instalados ou aplicáveis a diferentes chassis, conforme uma base de dados estruturada. O sistema armazena todas as regras de composição dos itens e, ao consultar um número de chassi, recupera e exibe as informações relevantes para o usuário, garantindo precisão e eficiência na gestão dos componentes.
 Além disso, a solução foi aprimorada com uma interface intuitiva, voltada para a experiência do usuário, permitindo acesso tanto por computadores quanto por dispositivos móveis via hospedagem em nuvem. No caso específico da Embraer, um Sistema de Controle de Configuração de Aeronaves foi customizado para facilitar a verificação de configurações antes do voo, ajudando os pilotos a garantir a segurança e a eficiência operacional das aeronaves.
 </div>
+
 [Repositório](https://github.com/GroupHextech/HEXTECH-API4sem)
 
 ## Tecnologias utilizadas
@@ -338,6 +341,7 @@ Pro4Tech
 O objetivo da aplicação é desenvolver um dashboard interativo para centralizar e visualizar dados do processo de recrutamento e seleção de uma empresa. A plataforma permitirá análises em tempo real de métricas como número de candidatos, tempo médio de contratação e custos, além de gerar relatórios dinâmicos que apoiam a tomada de decisões estratégicas.
 Os usuários poderão personalizar relatórios de acordo com suas necessidades, aplicando filtros para visualizar informações específicas. Com essa abordagem, a ferramenta visa otimizar o processo de recrutamento, identificando padrões e tendências que contribuam para maior eficiência e melhor alocação de recursos.
 </div>
+
 [Repositório](https://github.com/Localhost-305/LocalHost305)
 
 
@@ -351,6 +355,89 @@ Os usuários poderão personalizar relatórios de acordo com suas necessidades, 
 <div align="justify">
 No projeto, atuei como desenvolvedor backend, sendo responsável pela criação de APIs REST que permitissem a interação eficiente com os dados provenientes do banco de dados. Além de tratar e organizar esses dados de forma otimizada, garanti que as informações fossem processadas corretamente para atender às necessidades do sistema. Também contribuí para o desenvolvimento do frontend, colaborando na apresentação dos dados em um formato visual mais acessível.
 </div>
+
+<details>
+  <summary><b>Api Rest</b></summary>
+
+```java
+@RestController
+@RequestMapping("/hiring")
+public class FactHiringController {
+
+    private final FactHiringService factHiringService;
+
+    public FactHiringController(FactHiringService factHiringService) {
+        this.factHiringService = factHiringService;
+    }
+
+    @GetMapping("cost")
+    public ResponseEntity<List<Map<String, Object>>> getHiringCost(
+            @RequestParam @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate startDate,
+            @RequestParam @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate endDate) {
+        List<Map<String, Object>> totalCost = factHiringService.calculateTotalCostPerMonth(startDate, endDate);
+        return ResponseEntity.ok(totalCost);
+    }
+
+```
+
+</details> 
+
+
+<details>
+  <summary><b>React</b></summary>
+
+```javaScript
+ <StyledCard bordered>
+          <div className="card-bg"></div>
+          <h1 className="card-title">Retenção Média</h1>
+          <h2 className="card-date" style={{ fontSize: '50px', margin: '35px 0px 0px 0px' }}>
+            <span>{retentions ? `${Math.floor(retentions.retentionDays)} dias` : '0 dias'}</span>
+          </h2>
+        </StyledCard>
+
+```
+</details> 
+
+<details>
+  <summary><b>CI</b></summary>
+
+```javaScript
+name: Workflow de Integração Contínua
+
+on:
+  push:
+    branches:
+      - feature/LOC-69
+
+jobs:
+  build-CI:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Run npm ci
+        run: npm ci
+
+      - name: Build React app
+        run: npm run build
+
+      - name: Run tests
+        run: npm test
+
+
+```
+
+</details> 
 
 ### Aprendizados efetivos
 ### Hard Skills
