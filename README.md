@@ -1,3 +1,5 @@
+<h1 align="center">Danilo Verginio da Silva</h1>
+
 ### Introdução
 <div align="justify">
 Meu nome é Danilo Vergínio da Silva e sou tecnólogo em Banco de Dados pela FATEC São José dos Campos. Durante minha formação, adquiri sólidos conhecimentos em bancos de dados relacionais e NoSQL, além de experiência em desenvolvimento de software utilizando linguagens como Python, Java, javaScript e SQL.
