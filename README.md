@@ -501,8 +501,35 @@ A solução consiste em uma inteligência artificial (IA) que analisa sentimento
 ### Contribuições pessoais
 
 <div align="justify">
-No papel de Scrum Master, fui responsável por gerenciar as tarefas entre os desenvolvedores, garantindo uma melhor distribuição do trabalho e o alinhamento com os objetivos do projeto. Atuei ativamente na remoção de impedimentos, facilitando a execução das atividades e assegurando que a equipe pudesse trabalhar de forma mais fluida e produtiva.
-Além disso, acompanhei e mantive atualizado o burndown chart, monitorando o progresso do time e auxiliando na identificação de possíveis gargalos. Com isso, contribuí para a organização e eficiência do desenvolvimento, promovendo um ambiente colaborativo e alinhado com os princípios ágeis.
+No papel de Scrum Master, fui responsável por garantir a aplicação eficaz das práticas ágeis e o bom desempenho do time de desenvolvimento. Minhas principais atividades incluíram:
+
+- Facilitação e Gestão do Time:
+Organizei e facilitei as principais cerimônias ágeis, como Daily Scrum, Sprint Planning, Sprint Review e Retrospective.
+Gerenciei a distribuição de tarefas entre os desenvolvedores, assegurando uma alocação equilibrada de trabalho e foco nos objetivos priorizados.
+Promovi um ambiente colaborativo e motivador, estimulando a auto-organização e a melhoria contínua.
+
+- Remoção de Impedimentos:
+Atuei proativamente na identificação e remoção de obstáculos que poderiam impactar o andamento das atividades.
+
+- Monitoramento e Melhoria Contínua:
+Mantive o burndown chart atualizado, acompanhando o progresso da equipe e identificando eventuais desvios ou gargalos.
+Apoiei a equipe na análise e ajuste de processos, sempre buscando aumentar a eficiência e a qualidade das entregas.
+
+- Promoção da Cultura Ágil:
+Fomentei a adoção dos valores e princípios do Scrum e das metodologias ágeis em todo o time.
+Incentivei práticas de feedback constante e aprendizado contínuo, contribuindo para a maturidade ágil da equipe.
+
+Além das funções como Scrum Master, participei ativamente do levantamento e análise de requisitos relacionados à Lei Geral de Proteção de Dados (LGPD), garantindo que a aplicação estivesse em conformidade com as exigências legais. As principais contribuições foram:
+
+- Identificação e Tradução dos Requisitos Legais:
+Estudei os principais pontos da LGPD e traduzi suas exigências em requisitos técnicos e funcionais claros para a equipe de desenvolvimento.
+
+- Definição de Funcionalidades Específicas:
+Exclusão de Dados: Especificamos e implementamos mecanismos para que usuários pudessem solicitar e garantir a exclusão segura de seus dados pessoais.
+Termos de Aceite: Auxiliei na definição do fluxo de apresentação e registro de consentimento, garantindo que os termos de aceite fossem claros, acessíveis e auditáveis.Produzendo
+um histórico de todas as ecolhas do usário e um histórico de todos os termos.
+Transmissão de Dados: Colaborei na elaboração de processos seguros para a transmissão de dados pessoais, respeitando as normas de segurança e privacidade.
+Disponibilidade de Dados: Estabelecemos procedimentos para garantir aos usuários o acesso facilitado aos seus dados, promovendo transparência e aderência ao princípio de autodeterminação informativa.
 </div>
 
 ### Aprendizados efetivos
