@@ -315,7 +315,28 @@ Além disso, a solução foi aprimorada com uma interface intuitiva, voltada par
 
 ### Contribuições pessoais
 <div align="justify">
-Atuei como Product Owner no projeto, sendo responsável por definir e priorizar funcionalidades, garantindo que a equipe entregasse valor ao negócio. Gerenciei o backlog, alinhei expectativas com stakeholders e assegurei que o produto atendesse às necessidades dos usuários. Além disso, facilitei a comunicação entre as partes envolvidas, tomei decisões estratégicas e acompanhei o desenvolvimento para garantir a entrega eficiente e alinhada aos objetivos do projeto.
+Atuei como Product Owner no projeto, desempenhando um papel central na definição e evolução do produto. Minhas principais atividades incluíram:
+
+- Levantamento e Análise de Requisitos:
+Realizei reuniões com o cliente para entender suas necessidades, dores e expectativas.
+Transformei essas informações em histórias de usuário claras, completas e priorizadas para o time de desenvolvimento.
+
+- Gestão e Priorização do Backlog:
+Modelei e mantive o Product Backlog de forma contínua, garantindo que estivesse sempre atualizado, organizado e alinhado com a estratégia de negócio.
+Utilizei critérios como valor de negócio e esforço estimado para priorizar itens.
+Facilitei sessões de Refinamento com a equipe para detalhar histórias, ajustar critérios de aceitação e quebrar épicos em funcionalidades menores.
+
+- Especificação e Detalhamento:
+Escrevi e refinei User Stories e Critérios de Aceitação, assegurando que fossem compreendidos pela equipe de desenvolvimento.
+Colaborei com analistas e designers na definição de fluxos, wireframes e protótipos que serviram de base para o desenvolvimento.
+
+- Alinhamento e Comunicação:
+Mantive comunicação constante com cliente, reportando o progresso do produto e ajustando o backlog conforme mudanças no escopo ou prioridades.
+Facilitei a compreensão das necessidades do negócio para a equipe de desenvolvimento e esclareci dúvidas sobre requisitos.
+
+- Acompanhamento do Desenvolvimento:
+Atuei como suporte contínuo para a equipe durante as sprints, removendo impedimentos relacionados a requisitos ou prioridades.
+Garantia de que as entregas estivessem alinhadas com os  objetivos estratégicos do projeto..
 </div>
 
 ### Aprendizados efetivos
