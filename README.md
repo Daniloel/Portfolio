@@ -132,12 +132,12 @@ Através do matplolib foi possivel criar gráficos para a visualizção do clien
 
 ### Hard Skills
 
-- **Python**: sei fazer com ajuda
-- **Pandas**:  sei fazer com ajuda
-- **Matplotlib**: sei fazer com ajuda
-- **Git**:  sei fazer com ajuda 
-- **GitHub**:  sei fazer com ajuda
-- **Jira**:  sei fazer com ajuda
+- **Python**: sei fazer 
+- **Pandas**:  sei fazer 
+- **Matplotlib**: sei fazer 
+- **Git**:  sei fazer  
+- **GitHub**:  sei fazer 
+- **Jira**:  sei fazer 
 
 ### SoftSkills
 <div align="justify">
@@ -184,10 +184,10 @@ Contribuí para a modelagem da parte do banco de dados e implementei a conexão 
 ### Aprendizados efetivos
 
 ### Hard Skills
-- **SQL**: sei fazer com ajuda
-- **Modelagem de dados**: sei fazer com ajuda
-- **Integração com banco de dados**: sei fazer com ajuda
-- **Orientação a objetos**: sei fazer com ajuda
+- **SQL**: sei fazer
+- **Modelagem de dados**: sei fazer
+- **Integração com banco de dados**: sei fazer
+- **Orientação a objetos**: sei fazer
 
 ### SoftSkills
 <div align="justify">
@@ -284,7 +284,7 @@ async function carregar_UF(valUF){
 - **PostgreSQL**: sei fazer com autonomia
 - **Git e github**: sei fazer com autonomia
 - **Consumo de API** Rest: sei fazer com autonomia
-- **Desenvolvimento de código através de interfaces**: sei fazer com ajuda
+- **Desenvolvimento de código através de interfaces**: sei fazer
 
 ### SoftSkills
 <div align="justify">
@@ -535,7 +535,7 @@ Disponibilidade de Dados: Estabelecemos procedimentos para garantir aos usuário
 ### Aprendizados efetivos
 ### Hard Skills
 - **Python**: sei fazer com autonomia
-- **MongoDB**: sei fazer com ajuda
+- **MongoDB**: sei fazer 
 - **YouTrack** : sei fazer com autonomia
   
 ### SoftSkills
